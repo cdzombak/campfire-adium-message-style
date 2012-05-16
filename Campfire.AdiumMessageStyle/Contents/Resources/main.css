@@ -132,6 +132,18 @@ div.container .message .time
 	background-color: #efefef;
 }
 
+.container .actionMessageBody
+{
+	font-style: italic;
+	font-weight: bold;
+	color: #666;
+}
+
+.container .actionMessageBody::before, .container .actionMessageBody::after
+{
+	content: "";
+}
+
 .container.next .message, .container.initial .message
 {
 	padding-top: 3px;
