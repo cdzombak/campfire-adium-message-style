@@ -9,7 +9,7 @@ function doMagicLinks()
         var anchor = anchors.item(i);
 
         // Match images
-        if(anchor.href.match(/\.(png|jpg|jpeg|gif)$/ig))
+        if(anchor.href.match(/\.(png|jpg|jpeg|gif)$/ig) || anchor.href.match(/\.(png\??|jpg\??|jpeg\??|gif\??)/ig))
             anchor.onclick = getImgF(anchor);
 
         // Match videos
