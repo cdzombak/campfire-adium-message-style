@@ -26,7 +26,7 @@ This support is mostly based on code from [the ArsTechnica message style](http:/
 
 [Download the latest version here](https://github.com/cdzombak/campfire-adium-message-style/zipball/master), extract that archive, and copy `Campfire.AdiumMessageStyle` into `~/Library/Application Support/Adium 2.0/Message Styles`.
 
-(Some command like `cp -r Campfire.AdiumMessageStyle ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles` will do.)
+(Some command like `cp -r Campfire.AdiumMessageStyle ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles/` will do.)
 
 Restart Adium. Open the preferences (hit `⌘,`) and do this:
 
